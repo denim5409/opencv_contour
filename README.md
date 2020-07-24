@@ -14,6 +14,7 @@
 
 ```python
 import cv2
+import numpy as np
 
 src = cv2.imread("images/13_NG.bmp", cv2.IMREAD_COLOR)
 src = cv2.pyrDown(src)
